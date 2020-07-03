@@ -25,5 +25,8 @@
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
     "moment": "^2.27.0"
+  },
+  "engines": {
+    "node": "14.3.0"
   }
 }
