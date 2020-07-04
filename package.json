@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A lightweight API server to handle metric logging and report",
   "scripts": {
-    "start": "ts-node ./src/server.ts",
+    "start": "node dist/server.js",
     "build": "tsc",
     "dev": "nodemon -x ts-node ./src/server.ts"
   },
