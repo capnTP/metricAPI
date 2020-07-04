@@ -1,7 +1,7 @@
 # metricAPI
  A lightweight API server to handle metric logging and report
  
- Please find hosting link [here] (https://metric-reporting.herokuapp.com/)
+ Please find hosting link [here](https://metric-reporting.herokuapp.com/)
 
 ## Available Endpoints
 
