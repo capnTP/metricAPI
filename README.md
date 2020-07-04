@@ -14,7 +14,7 @@ Body:
 }
 ```
 
-### GET metric - Retrieve total value by key metric
+### GET metric - Retrieve total value by key metric (only display a total within recent hour)
 [GET] /metric/:key/sum - where key can be anything that you want to track
 Body: 
 ```
