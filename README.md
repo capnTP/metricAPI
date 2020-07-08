@@ -2,6 +2,19 @@
  A lightweight API server to handle metric logging and report
  
  Please find hosting link [here](https://metric-reporting.herokuapp.com/)
+ 
+ **To run server locally**
+ 1) clone repo with `git clone`
+ 2) `cd clonedDirectory/`
+ 3) `npm install`
+ 4) `npm run dev`
+ 
+ **To run built version**
+ 1) clone repo with `git clone`
+ 2) `cd clonedDirectory/`
+ 3) `npm install`
+ 4) `npm run build`
+ 5) `npm start`
 
 ## Available Endpoints
 
