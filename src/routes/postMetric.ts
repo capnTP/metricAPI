@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import responseHandler from '../utils/responseHandler';
+import * as moment from 'moment-timezone';
 
 const logPath = path.resolve(__dirname, '../../assets/tracker.json');
 
@@ -31,12 +32,12 @@ export const postMetric = (ctx: any, next: any) => {
   const existed = Object.keys(tracker).find(metric => metric === key);
   if (existed) {
     tracker[existed].push({
-      timeStamp: Date.now(),
+      timeStamp: moment().tz('America/Los_Angeles'),
       value: Math.round(value)
     })
   } else {
     tracker[key] = [{
-      timeStamp: Date.now(),
+      timeStamp: moment().tz('America/Los_Angeles'),
       value: Math.round(value)
     }]
   }
